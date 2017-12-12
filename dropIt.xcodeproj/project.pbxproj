@@ -13,6 +13,7 @@
 		F73F6A081FDF999F0082E44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73F6A071FDF999F0082E44E /* Assets.xcassets */; };
 		F73F6A0B1FDF999F0082E44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73F6A091FDF999F0082E44E /* LaunchScreen.storyboard */; };
 		F73F6A0E1FDF999F0082E44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73F6A0D1FDF999F0082E44E /* main.m */; };
+		F73F6A161FDFA6770082E44E /* DropItBehavior.mm in Sources */ = {isa = PBXBuildFile; fileRef = F73F6A141FDFA6770082E44E /* DropItBehavior.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F73F6A0A1FDF999F0082E44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F73F6A0C1FDF999F0082E44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F73F6A0D1FDF999F0082E44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F73F6A141FDFA6770082E44E /* DropItBehavior.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DropItBehavior.mm; sourceTree = "<group>"; };
+		F73F6A151FDFA6770082E44E /* DropItBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropItBehavior.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +61,17 @@
 		F73F69FD1FDF999F0082E44E /* dropIt */ = {
 			isa = PBXGroup;
 			children = (
-				F73F69FE1FDF999F0082E44E /* AppDelegate.h */,
-				F73F69FF1FDF999F0082E44E /* AppDelegate.m */,
+				F73F6A041FDF999F0082E44E /* Main.storyboard */,
 				F73F6A011FDF999F0082E44E /* ViewController.h */,
 				F73F6A021FDF999F0082E44E /* ViewController.m */,
-				F73F6A041FDF999F0082E44E /* Main.storyboard */,
+				F73F6A151FDFA6770082E44E /* DropItBehavior.h */,
+				F73F6A141FDFA6770082E44E /* DropItBehavior.mm */,
 				F73F6A071FDF999F0082E44E /* Assets.xcassets */,
 				F73F6A091FDF999F0082E44E /* LaunchScreen.storyboard */,
 				F73F6A0C1FDF999F0082E44E /* Info.plist */,
 				F73F6A0D1FDF999F0082E44E /* main.m */,
+				F73F69FE1FDF999F0082E44E /* AppDelegate.h */,
+				F73F69FF1FDF999F0082E44E /* AppDelegate.m */,
 			);
 			path = dropIt;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				F73F6A031FDF999F0082E44E /* ViewController.m in Sources */,
 				F73F6A0E1FDF999F0082E44E /* main.m in Sources */,
 				F73F6A001FDF999F0082E44E /* AppDelegate.m in Sources */,
+				F73F6A161FDFA6770082E44E /* DropItBehavior.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
