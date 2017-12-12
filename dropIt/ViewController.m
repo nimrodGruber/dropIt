@@ -17,7 +17,7 @@
 
 @implementation ViewController
 
-static const CGSize DROP_SIZE = { 42, 42 };
+static const CGSize DROP_SIZE = { 41, 41 };
 
 
 - (UIDynamicAnimator *)animator {
