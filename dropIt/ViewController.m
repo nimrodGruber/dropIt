@@ -63,6 +63,7 @@ static const CGSize DROP_SIZE = { 42, 42 };
       [self.dropItBehavior removeItem:drop];
     }
     [self animateRemovingDrops:dropsToRemove];
+    return YES;
   }
   
   return NO;
